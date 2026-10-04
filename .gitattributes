@@ -1,0 +1,2 @@
+# petal builds src/loop.sh into its program byte for byte, and Bash cannot run lines ending in CR LF.
+* text=auto eol=lf
