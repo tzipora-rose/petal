@@ -1,3 +1,21 @@
+# Copyright (C) 2026 tzipora-rose
+#
+# This file is part of petal.
+#
+# petal is free software: you can redistribute it and/or modify it under the
+# terms of the GNU Affero General Public License, version 3, as published by
+# the Free Software Foundation.
+#
+# petal is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+# more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with petal. If not, see <https://www.gnu.org/licenses/>.
+#
+# SPDX-License-Identifier: AGPL-3.0-only
+
 # petal's loop for Git Bash. petal starts bash with -c 'eval "$PETAL_LOOP"', its standard input the
 # request pipe, its standard output the answer pipe. A request is one line "<op> <id> <text>", the
 # text with every byte outside printable ASCII, and every backslash, written as \xHH. Every answer

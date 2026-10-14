@@ -1,3 +1,21 @@
+// Copyright (C) 2026 tzipora-rose
+//
+// This file is part of petal.
+//
+// petal is free software: you can redistribute it and/or modify it under the
+// terms of the GNU Affero General Public License, version 3, as published by
+// the Free Software Foundation.
+//
+// petal is distributed in the hope that it will be useful, but WITHOUT ANY
+// WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+// FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+// more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with petal. If not, see <https://www.gnu.org/licenses/>.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 //! The check before running, for Bash. Whether the command parses comes from Bash itself
 //! (bash -n). The two deletion rules need the command's words, which Bash cannot hand over, so a
 //! small reader below splits the command into simple commands and words the way Bash does for the

@@ -1,3 +1,21 @@
+// Copyright (C) 2026 tzipora-rose
+//
+// This file is part of petal.
+//
+// petal is free software: you can redistribute it and/or modify it under the
+// terms of the GNU Affero General Public License, version 3, as published by
+// the Free Software Foundation.
+//
+// petal is distributed in the hope that it will be useful, but WITHOUT ANY
+// WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+// FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+// more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with petal. If not, see <https://www.gnu.org/licenses/>.
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
 //! One shell process: started the way petal's probes proved, talked to through its loop script,
 //! and ended together with everything it started.
 //!

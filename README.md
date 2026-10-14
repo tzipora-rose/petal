@@ -102,4 +102,4 @@ node tests\broken-copies.js
 
 Copyright (C) 2026 tzipora-rose
 
-petal is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See `LICENSE`.
+petal is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation. See `LICENSE`.
